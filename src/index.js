@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from '../src/App'
 
+
+console.log("Hello");
 const root = document.getElementById('root');
-
-
-ReactDOM.render(<h1>Hello</h1>,root);
+ReactDOM.render(<App />,root);
 
